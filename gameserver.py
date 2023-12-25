@@ -10,7 +10,7 @@ S.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 # постоянные
 PORT = 5555
 
-SERVER_IP = '26.198.66.213'
+SERVER_IP = '192.168.0.100'
 
 # попытаться подключиться к серверу
 try:
